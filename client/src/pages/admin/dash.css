@@ -1,0 +1,26 @@
+.dash_stat {
+    margin-top : 2%;
+    padding : 2% 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:50px
+}
+.stat_user{
+    background-color: #2d8adc;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding:5%;
+
+}
+.stat_trajet{
+    background-color: #dc3f3f;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding:5%
+}
+.stat_icon {
+    padding : 0 5%; 
+    width: 90%;
+    font-size: 4rem;
+    color:white ;
+}

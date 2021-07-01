@@ -1,0 +1,49 @@
+.sidebar {
+    width: 350px;
+    min-height: 80vh;
+    background-color: #3C4B64;
+    transition: 1s all ease-in-out;
+    color: #fafafa;
+}
+
+.sidebar > .sidebar_bottom ,.sidebar_top {
+    height: 57px;
+    background-color:#303C54;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar > .sidebar_contents{
+    min-height:92vh;
+    background-color: #3C4B64;
+}
+
+.admin_link {
+    padding :20px;
+    cursor: pointer;
+}
+.admin_link_clicked {
+    padding:20px; 
+    cursor: pointer;
+    background-color: #303C54;
+}
+.admin_link:hover {
+    background-color: blue;
+}
+.admin_sublink {
+    cursor: pointer;
+}
+.admin_sublink > p {
+    padding-left : 30px;
+}
+.admin_link_s {
+    padding: 20px 0 20px 40px;
+    background-color:#303C54;
+
+}
+.admin_link_s:hover {
+    background-color: blue;
+}
+.admin_link_icon{
+    margin-right: 20px;
+}

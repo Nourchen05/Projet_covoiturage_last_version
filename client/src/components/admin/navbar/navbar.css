@@ -1,0 +1,29 @@
+.admin_navbar {
+    height: 57px;
+    background-color:white;
+    position: sticky;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(204, 202, 202);
+    color:rgb(143, 143, 143)
+}
+.admin_navbar > .admin_left_bar {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+.admin_navbar > .admin_left_bar > p{
+    margin-left: 50px;
+}
+.admin_navbar > .admin_right_bar {
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.admin_navbar > .admin_right_bar > p{
+    margin-right: 10px;
+}
