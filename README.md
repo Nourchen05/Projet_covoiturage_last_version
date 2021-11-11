@@ -27,7 +27,7 @@ To clone and run this application, you'll need Git and Node.js (which comes with
 
     $ cd Projet_covoiturage_last_version
 
-3- Install dependencies
+4- Install dependencies
 
     $ cd client
     
@@ -38,7 +38,7 @@ To clone and run this application, you'll need Git and Node.js (which comes with
     $ npm install
     
 
-4- Run the app
+5- Run the app
 
     $ npm run dev
 
